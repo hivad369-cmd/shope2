@@ -1,0 +1,21 @@
+{
+    "name": "hivad/project-root",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "^7.9"
+    },
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "Hivad\\ProjectRoot\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "hivad"
+        }
+    ],
+    "require-dev": {
+        "fakerphp/faker": "^1.24"
+    }
+}
